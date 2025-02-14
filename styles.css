@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+#home{
+    margin:auto;
+    max-width: fit-content;
+    margin-bottom:2em;
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family:'Shadows Into Light';
+    color:black;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #f500c4, #ff86d9);
+    background-color: #f500c4;
+    background-attachment: fixed;
+}
+
+.navbar{
+    margin-left:auto;
+    margin-right:auto;
+    max-width: fit-content;
+}
+
+.navbar div{
+    display:inline;
+    margin-right:3em;
+    background-color:#FF0000;
+    background-image:linear-gradient(to bottom left, #FF0000, #9E00F5);
+    padding: 1em 1.5em 0.5em 1.5em;
+    max-height:3em;
+}
+
+.navbar div a{
+    font-size:1.5em;
+    color:white;
+    margin:auto auto auto auto;
+    text-decoration: none;
+}
+
+.body{
+    padding:3em;
+    background-color:#EDEDED;
+    max-width: 50em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#about h1{
+    color:#FF0000;
+    background-image: linear-gradient(to bottom, #FF0000, #FFC24D);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:5em;
+    overflow:hidden;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#gallery h1{
+    color: #014f00;
+    background-image: linear-gradient(to right, #046d00, #026a008b);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:5em;
+    overflow:hidden;
+}
+
+#gallery img{
+    display:inline-block;
+    width:20em;
+}
+
+#artists h1{
+    color: #0019FC;
+    background-image: linear-gradient(to left, #77ff00, #0019FC);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:5em;
+    overflow:hidden;
+}
