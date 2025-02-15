@@ -2,11 +2,13 @@ const home = document.getElementById("home");
 const about = document.getElementById("about");
 const gallery = document.getElementById("gallery");
 const artists = document.getElementById("artists");
+const gallerySidebar = document.getElementById("gallery-sidebar");
 
 home.style.display = "block";
 about.style.display = "none";
 gallery.style.display = "none";
 artists.style.display = "none";
+gallerySidebar.style.display = "none";
 
 function homeShow()
 {
@@ -20,6 +22,7 @@ function homeShow()
 
     if(gallery.style.display === "block"){
         gallery.style.display = "none";
+        gallerySidebar.style.display = "none";
     }
 
     if(artists.style.display === "block"){
@@ -39,6 +42,7 @@ function aboutShow()
 
     if(gallery.style.display === "block"){
         gallery.style.display = "none";
+        gallerySidebar.style.display = "none";
     }
 
     if(artists.style.display === "block"){
@@ -58,6 +62,7 @@ function galleryShow()
 
     if(gallery.style.display === "none"){
         gallery.style.display = "block";
+        gallerySidebar.style.display = "block";
     }
 
     if(artists.style.display === "block"){
@@ -77,6 +82,7 @@ function artistShow()
 
     if(gallery.style.display === "block"){
         gallery.style.display = "none";
+        gallerySidebar.style.display = "none";
     }
 
     if(artists.style.display === "none"){

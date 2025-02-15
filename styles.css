@@ -48,6 +48,7 @@ body{
     max-width: 50em;
     margin-right: auto;
     margin-left: auto;
+    top:0%;
 }
 
 #about h1{
@@ -98,4 +99,32 @@ body{
     -webkit-text-fill-color: transparent;
     font-size:5em;
     overflow:hidden;
+}
+
+#gallery-sidebar{
+    left:0px;
+    width: 20em;
+    position:fixed;
+    background-color: #EDEDED;
+    top:0%;
+    height:100%;
+}
+
+#gallery-sidebar a{
+    font-size: 1.5em;
+    text-decoration: none;
+    padding-left:1em;
+}
+
+#gallery-sidebar div{
+    padding-bottom:1em;
+    padding-top:1em;
+}
+
+#gallery-sidebar div:hover > a{
+    color:white;
+}
+
+#gallery-sidebar div:hover{
+    background-color: rgb(154, 0, 100);
 }
