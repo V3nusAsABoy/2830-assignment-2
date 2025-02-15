@@ -65,7 +65,7 @@ body{
     grid-template-columns: repeat(3,1fr);
 }
 
-#gallery h1{
+#gallery h1:first-child{
     color: #014f00;
     background-image: linear-gradient(to right, #046d00, #026a008b);
     -webkit-background-clip: text;
@@ -75,9 +75,19 @@ body{
     overflow:hidden;
 }
 
+#gallery h1{
+    font-size:3em;
+}
+
+#gallery p{
+    font-size: 2em;
+}
+
 #gallery img{
-    display:inline-block;
-    width:20em;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    width:40em;
 }
 
 #artists h1{
@@ -89,19 +99,3 @@ body{
     font-size:5em;
     overflow:hidden;
 }
-
-/*
-
-#about{
-    display:none;
-}
-
-#gallery{
-    display:none;
-}
-
-#artists{
-    display:none;
-}
-
-*/
