@@ -112,7 +112,6 @@ body{
 
 #gallery-sidebar a{
     font-size: 1.5em;
-    text-decoration: none;
     padding-left:1em;
 }
 
@@ -122,9 +121,5 @@ body{
 }
 
 #gallery-sidebar div:hover > a{
-    color:white;
-}
-
-#gallery-sidebar div:hover{
-    background-color: rgb(154, 0, 100);
+    color:#f500c4;
 }
