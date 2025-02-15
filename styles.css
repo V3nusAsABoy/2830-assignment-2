@@ -123,3 +123,36 @@ body{
 #gallery-sidebar div:hover > a{
     color:#f500c4;
 }
+
+@media screen and (max-width: 1600px){
+    #gallery-sidebar{
+        height:5em;
+        width:100%;
+        bottom:0px;
+        top:auto;
+        text-align: center;
+    }
+
+    #gallery-sidebar div{
+        padding-bottom:0em;
+        padding-top:0em;
+        display: inline-block;
+        padding-right:2em;
+        padding-left:2em;
+    }
+
+    #gallery-sidebar div:first-child{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .body{
+        width:250%;
+        height:100%;
+        left:0px;
+        right:0px;
+        top:0px;
+        bottom:0px;
+    }
+}
