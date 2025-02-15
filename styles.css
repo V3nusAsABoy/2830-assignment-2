@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
-#home{
+#logos{
     margin:auto;
     max-width: fit-content;
     margin-bottom:2em;
@@ -39,7 +39,6 @@ body{
     width: 4em;
     color:white;
     text-align: center;
-    border:none;
 }
 
 .body{
@@ -89,3 +88,19 @@ body{
     font-size:5em;
     overflow:hidden;
 }
+
+/*
+
+#about{
+    display:none;
+}
+
+#gallery{
+    display:none;
+}
+
+#artists{
+    display:none;
+}
+
+*/

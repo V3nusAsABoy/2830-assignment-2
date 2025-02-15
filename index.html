@@ -6,17 +6,21 @@
     </head>
     <body>
         <div class="body">
-            <div id="home">
+            <div id="logos">
                 <img style = "width:7em;margin-top:2em;grid-column:3;" src="./img/pallette.png" alt="logo">
                 <h1 style = "float:right;font-size:3em;grid-column:5">TheArtZone</h1>
             </div>
 
             <nav class="navbar">
-                <div><button>Home</button></div>
-                <div><button>About</button></div>
-                <div><button>Gallery</button></div>
-                <div><button>Artists</button></div>
+                <div><button id="homeButton" onclick="homeShow()">Home</button></div>
+                <div><button id="aboutButton" onclick="aboutShow()">About</button></div>
+                <div><button id="galleryButton" onclick="galleryShow()">Gallery</button></div>
+                <div><button id="artistsButton" onclick="artistShow()">Artists</button></div>
             </nav>
+
+            <div id="home">
+                <h1 style="font-size:3em;">Welcome to The Art Zone! Explore different pieces by our wonderful artists!</h1>
+            </div>
 
             <div id="about">
                 <h1>about</h1>
@@ -70,9 +74,7 @@
                 </div>
             </div>
 
-
         </div>
+        <script src="navbuttons.js"></script>
     </body>
-
-
 </html>
