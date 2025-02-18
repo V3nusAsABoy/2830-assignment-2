@@ -59,6 +59,15 @@ body{
     border:none;
 }
 
+#home{
+    overflow: hidden;
+}
+
+video {
+    margin: -1px;
+    clip-path: inset(0px);
+  }
+
 .body{
     padding:3em;
     background-color:#EDEDED;
