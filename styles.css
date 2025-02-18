@@ -59,14 +59,13 @@ body{
     border:none;
 }
 
-#home{
-    overflow: hidden;
+#home video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
 }
 
-video {
-    margin: -1px;
-    clip-path: inset(0px);
-  }
 
 .body{
     padding:3em;
@@ -225,16 +224,4 @@ video {
         padding-bottom:10em;
     }
 
-}
-
-@media screen and (max-width: 460px){
-    #galleryButton{
-        margin-top:1em;
-    }
-}
-
-@media screen and (max-width: 370px){
-    #gallery-sidebar{
-        height:12em;
-    }
 }
