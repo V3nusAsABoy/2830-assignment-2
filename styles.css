@@ -223,3 +223,9 @@ body{
         margin-top:1em;
     }
 }
+
+@media screen and (max-width: 370px){
+    #gallery-sidebar{
+        height:12em;
+    }
+}
