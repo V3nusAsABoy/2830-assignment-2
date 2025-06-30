@@ -39,7 +39,7 @@ body{
     background-attachment: fixed;
     background-color: #f500c4;
     background-attachment: fixed;
-    background-size:1920px 1080px;
+    background-size:cover;
 }
 
 .navbar{
