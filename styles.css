@@ -36,6 +36,7 @@ div > h1:first-of-type{
 
 body{
     background-image: url("./img/drawingbackground.png");
+    background-attachment: fixed;
     background-color: #f500c4;
     background-attachment: fixed;
     background-size:1920px 1080px;
