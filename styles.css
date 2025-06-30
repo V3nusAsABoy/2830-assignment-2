@@ -194,7 +194,6 @@ body{
     .body{
         box-shadow:none;
         background-color: #edededaf;
-        height: 100%;
         padding-bottom: 12.5em;
     }
 }
